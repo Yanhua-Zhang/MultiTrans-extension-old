@@ -33,11 +33,11 @@ Download the preprocessed data and put it into the folder 'preprocessed_data'.
 
 ### 3. Environment
 
-We trained our model on one NVIDIA GeForce GTX 3090 with the CUDA 11.1 and CUDNN 8.0.
+We trained our model on one NVIDIA A800 (80GB) with the CUDA 11.1 and CUDNN 8.0.
 
 - Python 3.8.13.
 
-- PyTorch 1.8.1. 
+- PyTorch 2.0.1. 
 
 - Please refer to 'requirements.txt' for other dependencies.
 
@@ -48,7 +48,7 @@ We trained our model on one NVIDIA GeForce GTX 3090 with the CUDA 11.1 and CUDNN
 - Put 'epoch_149.pth' into this folder: 'Results/model_Trained/My_Model_Synapse224/Model/My_Model_pretrain_resnet50_Deep_V10_epo150_bs24_lr0.1_224_s1290'. Run the following order:
 
 ```bash
-cd Project_MultiTrans_V0
+cd MultiTrans_extension
 ```
 
 ```bash
@@ -58,7 +58,7 @@ CUDA_VISIBLE_DEVICES=0 python test.py --dataset Synapse --Model_Name My_Model --
 ### 5. Train/Test by yourself
 
 ```bash
-cd Project_MultiTrans_V0
+cd MultiTrans_extension
 ```
 
 - Run the train script.
