@@ -33,7 +33,7 @@ Download the preprocessed data and put it into the folder 'preprocessed_data'.
 
 ### 3. Environment
 
-We trained our model on one NVIDIA A800 (80GB) with the CUDA 11.1 and CUDNN 8.0.
+We trained our model on one NVIDIA A800 (80GB) with the CUDA 11.7 and CUDNN 8500.
 
 - Python 3.8.13.
 
