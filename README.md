@@ -43,9 +43,9 @@ We trained our model on one NVIDIA GeForce GTX 3090 with the CUDA 11.1 and CUDNN
 
 ### 4. Test our trained model 
 
-- Download the trained model:[link](https://drive.google.com/file/d/1HXqO9r_wmfIHzg0l0q8V5EC1cVyl-HCu/view?usp=sharing). This trained model reached 84.82% DSC and 12.66 mm HD on the Synapse dataset, without using sophisticated data augmentation methods. 
+- Download the trained model:[link](https://drive.google.com/file/d/1DDqsDNoWuvn8Uy9H4_qfNNXGJQK917UA/view?usp=drive_link). This trained model reached 84.82% DSC and 12.66 mm HD on the Synapse dataset, without using sophisticated data augmentation methods. 
 
-- Put 'epoch_149.pth' into this folder: 'Results\model_Trained\My_MultiTrans_V0_Synapse224\Model\My_MultiTrans_V0_pretrain_resnet50_Deep_V0_epo150_bs24_224_s1294'. Run the following order:
+- Put 'epoch_149.pth' into this folder: 'Results/model_Trained/My_Model_Synapse224/Model/My_Model_pretrain_resnet50_Deep_V10_epo150_bs24_lr0.1_224_s1290'. Run the following order:
 
 ```bash
 cd Project_MultiTrans_V0
