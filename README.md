@@ -1,11 +1,12 @@
 # MultiTrans
-This repository includes the official project of our paper submitted to Computer Methods and Programs in Biomedicine. Title: "MultiTrans: Multi-Branch Transformer Network for Medical Image Segmentation".
+
+This repository includes the official project of our paper accepted by Computer Methods and Programs in Biomedicine. Title: "MultiTrans: Multi-Branch Transformer Network for Medical Image Segmentation".
 
 ## Usage
 
 ### 0. To be noted:
 
-- We will gradually optimize the code to make it more readable and standardized.
+- The optimized version of this code is released here: [link](https://github.com/Yanhua-Zhang/MultiTrans-extension).
 
 - If you have any suggestions for improvement or encounter any issues while using this code, please feel free to contact me: yanhuazhang@mail.nwpu.edu.cn
 
@@ -79,7 +80,12 @@ CUDA_VISIBLE_DEVICES=0 python test.py --dataset Synapse --Model_Name My_Model --
 ## Citations
 
 ```bibtex
-
-xxx
-
+@article{zhang2024multitrans,
+  title={MultiTrans: Multi-branch transformer network for medical image segmentation},
+  author={Zhang, Yanhua and Balestra, Gabriella and Zhang, Ke and Wang, Jingyu and Rosati, Samanta and Giannini, Valentina},
+  journal={Computer Methods and Programs in Biomedicine},
+  pages={108280},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
